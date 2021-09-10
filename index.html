@@ -3,6 +3,56 @@
 
 <head>
   <link rel="stylesheet" href="styles.css">
+  <style>
+body {
+  background-color: #f8f6e4;
+}
+
+p {
+  color: #0d3f70;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: red;
+}
+p#unique-element{ background-color: rgb(21,100,171) }
+
+h1 {
+  margin-left: 50px;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+h3 {
+	width: 200px;
+	text-align: center;
+}
+
+h4:hover {
+  background-color: #0bb1a1;
+}
+
+h4#h4insidedivcolor{
+	color:  #f38c00;
+}
+
+h5 {
+  display: none;
+}
+
+.square {
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	border-style: solid;
+}
+
+.bar {
+	height: 100vw;
+	background-color: rgb(143 200 155);
+}
+</style>
 </head>
 
 <body>
@@ -14,7 +64,7 @@
     Heading 3 This is a Heading 3 This is a Heading 3 This is a Heading 3</h3>
   <h4>This is a Heading 4</h4>
   <div>
-    <h4>This is a heading4 inside a div</h4>
+    <h4 id="h4insidedivcolor">This is a heading4 inside a div</h4>
     <div>
       <h5>This is a Heading 5</h5>
       <p id="unique-element">This should be blue.</p>
